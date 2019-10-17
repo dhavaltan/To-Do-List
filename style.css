@@ -1,80 +1,73 @@
-    body
-    {
-        background: linear-gradient(to left, #005aa7, #fffde4);
-    }
-    table#tab
-    {
-        table-layout: fixed;
-        width: 60%;  
-        margin: auto;
-        background: #f7f1e3;
-    }
-    #req
-    {
-        color:red;
-    }
-    #addTask{
-        border-radius: 13px;
-    }
-    th
-    {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #0A79DF;
-        color: white;
-        
-    }
+body {
+  background: linear-gradient(to left, #005aa7, #fffde4);
+}
 
-    td, th
-    {
-        border: 1px solid #dcdde1;
-        padding: 8px;
-        font-size: 17px;
-    }
+table#tab {
+  table-layout: fixed;
+  width: 60%;
+  margin: auto;
+  background: #f7f1e3;
+}
 
-    tr:hover 
-    {
-        background-color: #d1d8e0;
-    }
+#req {
+  color: red;
+}
 
-    #header
-    {
-        padding-top: 10px;
-        background: black;
-    }
+#addTask {
+  border-radius: 13px;
+}
 
-    input[type=text] 
-    {
-        width: 100%;
-        padding: 12px 20px;
-        border: 1px solid #ccc;
-        font-size: 18px;
-    }
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0a79df;
+  color: white;
+}
 
-    button
-    {
-        background-color: #0097e6; 
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        font-size: 17px;
-        padding: 7px 7px;
-        width: 150px;
-    }
-    input[type=radio] 
-    {
-        width: 18px;
-        height: 18px; 
-    }
-    
-    #gly
-    {
-        color: white;
-    }
-    
-    #tablerow
-    {
-        background: #c7ecee;
-    }
+td,
+th {
+  border: 1px solid #dcdde1;
+  padding: 8px;
+  font-size: 17px;
+}
+
+tr:hover {
+  background-color: #d1d8e0;
+}
+
+#header {
+  padding-top: 10px;
+  background: black;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+button {
+  background-color: #0097e6;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 7px;
+  width: 150px;
+}
+
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+#gly {
+  color: white;
+}
+
+#tablerow {
+  background: #c7ecee;
+}
